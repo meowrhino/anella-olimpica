@@ -1,0 +1,29 @@
+# Configuración del Worker "Anella Olímpica".
+# Deploy:  wrangler deploy
+# Dev:     wrangler dev   (KV local, no toca producción)
+
+name = "anella-olimpica"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# --- Cron Trigger -----------------------------------------------------------
+# OJO: el cron de Cloudflare es UTC. 04:00 UTC ≈ 05:00 (invierno) / 06:00
+# (verano) hora de Madrid. Una vez al día, de madrugada.
+[triggers]
+crons = ["0 4 * * *"]
+
+# --- KV ---------------------------------------------------------------------
+# Crea tu namespace con:   wrangler kv namespace create ANELLA_KV
+# y pega aquí el `id` que te devuelva (en dev local este id se ignora).
+[[kv_namespaces]]
+binding = "ANELLA_KV"
+id = "RELLENA_ESTE_ID_TRAS_CREAR_EL_NAMESPACE"
+
+# --- Variables --------------------------------------------------------------
+[vars]
+# Dominio del front en Cloudflare Pages (para CORS). Ajústalo al tuyo real.
+ORIGEN_PERMITIDO = "https://anella-olimpica.pages.dev"
+
+# ACCESO_TOKEN NO se pone aquí (es un secreto). Se guarda con:
+#   wrangler secret put ACCESO_TOKEN
+# En desarrollo local se lee de un archivo `.dev.vars` (ver README).
