@@ -1,0 +1,41 @@
+name: Scrape agenda Anella Olímpica
+
+# Corre el scrape una vez al día y commitea docs/data/log.json si cambió.
+# GitHub Pages (configurado en main/docs) se reconstruye solo con ese push.
+on:
+  schedule:
+    # OJO: el cron de GitHub es UTC. 04:00 UTC ≈ 05–06 h Madrid (madrugada).
+    - cron: '0 4 * * *'
+  workflow_dispatch: {} # permite lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write # para poder commitear el JSON actualizado
+
+concurrency:
+  group: scrape-anella
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Scrapear agenda y actualizar el log
+        run: node scripts/scrape.mjs
+
+      - name: Commitear si hay cambios
+        run: |
+          git config user.name "anella-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/log.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios en el log."
+          else
+            git commit -m "data: actualización diaria de la agenda [skip ci]"
+            git push
+          fi

@@ -42,14 +42,10 @@
     <!-- Panel de ajustes -->
     <div id="ajustes" class="ajustes" hidden>
       <label>
-        URL del Worker
-        <input id="in-apibase" type="url" placeholder="https://anella-olimpica.tu-subdominio.workers.dev" />
+        Token (PAT) de GitHub
+        <input id="in-token" type="password" placeholder="github_pat_… (permiso Contents: read/write)" autocomplete="off" />
       </label>
-      <label>
-        Token de acceso
-        <input id="in-token" type="password" placeholder="(para marcar el acceso real)" />
-      </label>
-      <p class="ayuda">Déjalo vacío para usar el modo demo con datos de ejemplo.</p>
+      <p class="ayuda">Solo hace falta para <strong>marcar</strong> el acceso real. Se guarda únicamente en este dispositivo. <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">Crear token →</a></p>
       <div class="ajustes-botones">
         <button id="btn-guardar-ajustes" class="btn-primario" type="button">Guardar</button>
         <button id="btn-cerrar-ajustes" class="link" type="button">Cerrar</button>
