@@ -97,6 +97,22 @@ function sinAcentos(txt) {
 }
 
 /**
+ * Decodifica las entidades HTML más comunes (HTMLRewriter entrega el texto
+ * crudo, p. ej. "Molotov &amp; Mala" en vez de "Molotov & Mala").
+ * `&amp;` se resuelve EL ÚLTIMO para no doble-decodificar.
+ */
+function decodeEntidades(s) {
+  return (s || '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#0?39;|&apos;|&rsquo;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&amp;/g, '&');
+}
+
+/**
  * Devuelve la fecha "YYYY-MM-DD" en zona Europe/Madrid, desplazada `offsetDias`.
  * Anclamos a mediodía UTC del día de Madrid para que sumar días no se vea
  * afectado por cambios de horario de verano (DST).
@@ -168,9 +184,9 @@ async function parsearAgenda(html) {
   const eventos = registros
     .map((r) => {
       const fechaISO = fechaTextoAISO(r.fechaTexto);
-      const recinto = r.recinto.trim();
+      const recinto = decodeEntidades(r.recinto.trim());
       return {
-        nombre: r.nombre.trim(),
+        nombre: decodeEntidades(r.nombre.trim()),
         recinto,
         fechaISO,
         afectaExplanada: RE_AFECTA.test(sinAcentos(recinto)),
@@ -269,7 +285,13 @@ async function procesarCron(env) {
     );
   }
 
-  return { scrapeOk, fuente: resultado.fuente, eventosDetectados: resultado.eventos.length, dias };
+  return {
+    scrapeOk,
+    fuente: resultado.fuente,
+    eventosDetectados: resultado.eventos.length,
+    eventos: resultado.eventos, // lista completa parseada (transparencia + debug)
+    dias,
+  };
 }
 
 // ===========================================================================
