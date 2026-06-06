@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0e7a3b" />
+  <title>¿Está abierta la Anella Olímpica?</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏟️</text></svg>" />
+</head>
+<body>
+  <main class="contenedor">
+    <header class="cabecera">
+      <h1>Anella Olímpica</h1>
+      <p class="sub">Esplanada de Montjuïc · ¿abierta hoy?</p>
+    </header>
+
+    <!-- Vista 1: semáforo de HOY -->
+    <section id="semaforo" class="semaforo" aria-live="polite">Cargando…</section>
+
+    <div id="aviso-stale" class="aviso" hidden>
+      ⚠️ El scraper lleva más de 36 h sin actualizar. Los eventos pueden no estar al día.
+    </div>
+
+    <!-- Navegación -->
+    <nav class="tabs" role="tablist">
+      <button class="tab activo" data-tab="semana" role="tab">Próximos 7 días</button>
+      <button class="tab" data-tab="historico" role="tab">Histórico</button>
+    </nav>
+
+    <!-- Vista 2: próximos 7 días -->
+    <section id="vista-semana" class="vista"></section>
+
+    <!-- Vista 3: histórico / patrón -->
+    <section id="vista-historico" class="vista" hidden></section>
+
+    <footer class="pie">
+      <div id="meta-info" class="meta"></div>
+      <button id="btn-ajustes" class="link" type="button">⚙ Ajustes</button>
+    </footer>
+
+    <!-- Panel de ajustes -->
+    <div id="ajustes" class="ajustes" hidden>
+      <label>
+        URL del Worker
+        <input id="in-apibase" type="url" placeholder="https://anella-olimpica.tu-subdominio.workers.dev" />
+      </label>
+      <label>
+        Token de acceso
+        <input id="in-token" type="password" placeholder="(para marcar el acceso real)" />
+      </label>
+      <p class="ayuda">Déjalo vacío para usar el modo demo con datos de ejemplo.</p>
+      <div class="ajustes-botones">
+        <button id="btn-guardar-ajustes" class="btn-primario" type="button">Guardar</button>
+        <button id="btn-cerrar-ajustes" class="link" type="button">Cerrar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

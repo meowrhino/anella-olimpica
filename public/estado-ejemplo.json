@@ -1,0 +1,112 @@
+{
+  "_comentario": "Datos de muestra para el MODO DEMO del front (cuando no hay API configurada). Muestran el caso clave: un único concierto publicado (The Weeknd, 01/09) pero la explanada cerrada 4 días seguidos (montaje + desmontaje), que es justo el patrón que la app ayuda a deducir.",
+  "generadoEn": "2026-09-01T05:00:00Z",
+  "lastrun": "2026-09-01T04:00:12Z",
+  "fuente": "estadiolimpic.barcelona",
+  "scraperStale": false,
+  "semana": [
+    {
+      "fecha": "2026-09-01",
+      "evento": { "hayEvento": true, "nombre": "The Weeknd", "recinto": "Estadi Olímpic", "afectaExplanada": true },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-02",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-03",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-04",
+      "evento": { "hayEvento": true, "nombre": "Aitana", "recinto": "Palau Sant Jordi", "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-05",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-06",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-07",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    },
+    {
+      "fecha": "2026-09-08",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null,
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-01T04:00:12Z"
+    }
+  ],
+  "historico": [
+    {
+      "fecha": "2026-08-26",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "abierto"
+    },
+    {
+      "fecha": "2026-08-27",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "abierto"
+    },
+    {
+      "fecha": "2026-08-28",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": null
+    },
+    {
+      "fecha": "2026-08-29",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "abierto"
+    },
+    {
+      "fecha": "2026-08-30",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "cerrado"
+    },
+    {
+      "fecha": "2026-08-31",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "cerrado"
+    },
+    {
+      "fecha": "2026-09-01",
+      "evento": { "hayEvento": true, "nombre": "The Weeknd", "recinto": "Estadi Olímpic", "afectaExplanada": true },
+      "accesoReal": "cerrado"
+    },
+    {
+      "fecha": "2026-09-02",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "cerrado"
+    },
+    {
+      "fecha": "2026-09-03",
+      "evento": { "hayEvento": false, "nombre": null, "recinto": null, "afectaExplanada": false },
+      "accesoReal": "abierto"
+    }
+  ]
+}
