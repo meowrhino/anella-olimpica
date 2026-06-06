@@ -1,0 +1,15 @@
+# Dependencias (no usamos npm para el front; esto es por si acaso para tooling)
+node_modules/
+
+# Wrangler / Cloudflare
+.wrangler/
+dist/
+.dev.vars
+wrangler.local.toml
+
+# Secretos locales
+.env
+*.local
+
+# Sistema
+.DS_Store
