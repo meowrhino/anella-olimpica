@@ -11,5 +11,8 @@ wrangler.local.toml
 .env
 *.local
 
+# Tooling local (preview, etc.)
+.claude/
+
 # Sistema
 .DS_Store
