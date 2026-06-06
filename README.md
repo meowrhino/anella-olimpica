@@ -91,16 +91,24 @@ https://meowrhino.github.io/anella-olimpica/
 El cron corre de madrugada. Para tener datos ya: **pestaña Actions → "Scrape agenda Anella
 Olímpica" → Run workflow**. (También se puede correr en local: `node scripts/scrape.mjs`.)
 
-### 4. Token para poder marcar el acceso real
+### 4. "Modo dueño" para marcar el acceso real
 
-Para escribir tus marcas desde la web necesitas un **fine-grained Personal Access Token**:
+La web es **pública y de solo lectura**: cualquiera ve el estado, sin botones ni token.
+**Marcar** el acceso real (abierto/cerrado) es algo que solo haces **tú**, en un modo oculto.
+
+Para activarlo necesitas un **fine-grained Personal Access Token**:
 
 1. <https://github.com/settings/personal-access-tokens> → **Generate new token**.
 2. **Resource owner**: tu cuenta · **Repository access**: *Only select repositories* →
    `anella-olimpica`.
 3. **Permissions → Repository → Contents: _Read and write_**. (Nada más.)
-4. Genera, copia el token, abre la web → **⚙ Ajustes** → pégalo. Se guarda solo en tu
-   dispositivo (localStorage).
+4. Copia el token, entra a la web con **`#admin`** al final de la URL
+   (`https://meowrhino.github.io/anella-olimpica/#admin`) → aparece **⚙ Ajustes** → pega el
+   token → Guardar. Se guarda solo en ese dispositivo (localStorage) y a partir de ahí
+   verás los botones de marcar (ya sin necesidad del `#admin`).
+
+> El público nunca ve ni el ⚙ ni los botones. Tus marcas sí son visibles para todos (es
+> información útil), pero **escribirlas** solo puedes tú.
 
 > ⚠️ No pegues el token en dispositivos compartidos. Si se filtra, solo da acceso de
 > escritura a este repo; puedes revocarlo desde la misma página de GitHub.

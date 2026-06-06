@@ -24,6 +24,13 @@ function lsGet(k) { try { return localStorage.getItem(k); } catch (_e) { return 
 function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (_e) { /* ignora */ } }
 function lsDel(k) { try { localStorage.removeItem(k); } catch (_e) { /* ignora */ } }
 
+// --- Modo dueño ------------------------------------------------------------
+// La web es PÚBLICA y de solo lectura para todo el mundo. Los controles para
+// MARCAR el acceso real solo aparecen en "modo dueño": se activa si ya tienes
+// el token guardado en este dispositivo, o si entras con #admin en la URL
+// (úsalo la primera vez en un móvil nuevo para poder pegar el token).
+const ADMIN = location.hash === '#admin' || !!lsGet('ghToken');
+
 // ===========================================================================
 // HORARIO BASE  —  ÚNICA fuente de verdad del horario. Edita SOLO aquí.
 // Esplanada de l'Anella Olímpica. Mismo horario todos los días.
@@ -281,7 +288,7 @@ function renderSemana() {
     const chip = chipEvento(dia.evento);
     if (chip) izq.appendChild(chip);
     fila.appendChild(izq);
-    fila.appendChild(controlesAcceso(dia));
+    if (ADMIN) fila.appendChild(controlesAcceso(dia)); // marcar: solo el dueño
     cont.appendChild(fila);
   });
 }
@@ -359,7 +366,7 @@ function abrirAjustes() {
 function guardarAjustes() {
   const token = document.getElementById('in-token').value.trim();
   if (token) lsSet('ghToken', token); else lsDel('ghToken');
-  document.getElementById('ajustes').hidden = true;
+  location.reload(); // recalcula el modo dueño y muestra/oculta los controles
 }
 
 // --- Init ------------------------------------------------------------------
@@ -368,6 +375,7 @@ function init() {
   document.getElementById('btn-ajustes').addEventListener('click', abrirAjustes);
   document.getElementById('btn-guardar-ajustes').addEventListener('click', guardarAjustes);
   document.getElementById('btn-cerrar-ajustes').addEventListener('click', () => { document.getElementById('ajustes').hidden = true; });
+  document.getElementById('btn-ajustes').hidden = !ADMIN; // ⚙ solo en modo dueño
   activarTab('semana');
   recargar().catch((e) => { document.getElementById('semaforo').textContent = 'Error cargando datos: ' + e.message; });
   setInterval(() => { if (DATOS.semana.length) renderSemaforo(); }, 60000); // mantén "ahora" fresco
