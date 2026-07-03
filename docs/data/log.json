@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-07-02T07:34:12.105Z",
+    "lastrun": "2026-07-03T07:21:58.918Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -283,7 +283,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-04": {
       "evento": {
@@ -293,7 +293,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-05": {
       "evento": {
@@ -303,7 +303,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-06": {
       "evento": {
@@ -313,7 +313,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-07": {
       "evento": {
@@ -323,7 +323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-08": {
       "evento": {
@@ -333,7 +333,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     },
     "2026-07-09": {
       "evento": {
@@ -343,7 +343,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-02T07:34:12.105Z"
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+    },
+    "2026-07-10": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "OT 2025",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
     }
   }
 }
