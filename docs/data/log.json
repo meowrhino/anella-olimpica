@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-07-03T07:21:58.918Z",
+    "lastrun": "2026-07-04T06:48:10.756Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -293,7 +293,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-05": {
       "evento": {
@@ -303,7 +303,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-06": {
       "evento": {
@@ -313,7 +313,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-07": {
       "evento": {
@@ -323,7 +323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-08": {
       "evento": {
@@ -333,7 +333,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-09": {
       "evento": {
@@ -343,7 +343,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     },
     "2026-07-10": {
       "evento": {
@@ -353,7 +353,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-07-03T07:21:58.918Z"
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
+    },
+    "2026-07-11": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "La Reina del Flow",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-07-04T06:48:10.756Z"
     }
   }
 }
