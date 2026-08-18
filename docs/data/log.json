@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-08-17T04:42:34.218Z",
+    "lastrun": "2026-08-18T04:36:24.700Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -743,7 +743,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-19": {
       "evento": {
@@ -753,7 +753,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-20": {
       "evento": {
@@ -763,7 +763,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-21": {
       "evento": {
@@ -773,7 +773,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-22": {
       "evento": {
@@ -783,7 +783,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-23": {
       "evento": {
@@ -793,7 +793,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     },
     "2026-08-24": {
       "evento": {
@@ -803,7 +803,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-17T04:42:34.218Z"
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
+    },
+    "2026-08-25": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-08-18T04:36:24.700Z"
     }
   }
 }
