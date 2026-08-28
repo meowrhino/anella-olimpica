@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-08-27T15:01:41.521Z",
+    "lastrun": "2026-08-28T15:57:13.673Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -843,7 +843,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-08-29": {
       "evento": {
@@ -853,7 +853,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-08-30": {
       "evento": {
@@ -863,7 +863,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-08-31": {
       "evento": {
@@ -873,7 +873,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-09-01": {
       "evento": {
@@ -883,7 +883,7 @@
         "afectaExplanada": true
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-09-02": {
       "evento": {
@@ -893,7 +893,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     },
     "2026-09-03": {
       "evento": {
@@ -903,7 +903,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-08-27T15:01:41.521Z"
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
+    },
+    "2026-09-04": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Aitana (4, 5, 7 y 8 de Septiembre)",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-08-28T15:57:13.673Z"
     }
   }
 }
