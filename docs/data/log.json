@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-09-04T08:33:52.421Z",
+    "lastrun": "2026-09-05T08:08:51.634Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -917,13 +917,13 @@
     },
     "2026-09-05": {
       "evento": {
-        "hayEvento": false,
-        "nombre": null,
-        "recinto": null,
+        "hayEvento": true,
+        "nombre": "Aitana (4, 5, 7 y 8 de Septiembre)",
+        "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-06": {
       "evento": {
@@ -933,7 +933,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-07": {
       "evento": {
@@ -943,7 +943,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-08": {
       "evento": {
@@ -953,7 +953,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-09": {
       "evento": {
@@ -963,7 +963,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-10": {
       "evento": {
@@ -973,7 +973,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     },
     "2026-09-11": {
       "evento": {
@@ -983,7 +983,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-04T08:33:52.421Z"
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
+    },
+    "2026-09-12": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Music Bank Barcelona",
+        "recinto": "Estadi Olímpic",
+        "afectaExplanada": true
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-05T08:08:51.634Z"
     }
   }
 }
