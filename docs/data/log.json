@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-09-07T09:02:23.940Z",
+    "lastrun": "2026-09-08T08:40:43.511Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 10
   },
@@ -947,13 +947,13 @@
     },
     "2026-09-08": {
       "evento": {
-        "hayEvento": false,
-        "nombre": null,
-        "recinto": null,
+        "hayEvento": true,
+        "nombre": "Aitana (4, 5, 7 y 8 de Septiembre)",
+        "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-09": {
       "evento": {
@@ -963,7 +963,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-10": {
       "evento": {
@@ -973,7 +973,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-11": {
       "evento": {
@@ -983,7 +983,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-12": {
       "evento": {
@@ -993,7 +993,7 @@
         "afectaExplanada": true
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-13": {
       "evento": {
@@ -1003,7 +1003,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     },
     "2026-09-14": {
       "evento": {
@@ -1013,7 +1013,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-07T09:02:23.940Z"
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
+    },
+    "2026-09-15": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-08T08:40:43.511Z"
     }
   }
 }
