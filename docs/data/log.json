@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-09-24T09:04:12.144Z",
+    "lastrun": "2026-09-25T09:27:21.273Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 6
   },
@@ -1123,7 +1123,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-09-26": {
       "evento": {
@@ -1133,7 +1133,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-09-27": {
       "evento": {
@@ -1143,7 +1143,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-09-28": {
       "evento": {
@@ -1153,7 +1153,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-09-29": {
       "evento": {
@@ -1163,7 +1163,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-09-30": {
       "evento": {
@@ -1173,7 +1173,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     },
     "2026-10-01": {
       "evento": {
@@ -1183,7 +1183,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-09-24T09:04:12.144Z"
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
+    },
+    "2026-10-02": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Vetusta Morla",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-09-25T09:27:21.273Z"
     }
   }
 }
