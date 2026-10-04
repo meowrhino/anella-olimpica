@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-10-03T09:43:07.333Z",
+    "lastrun": "2026-10-04T10:26:40.356Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 7
   },
@@ -1207,13 +1207,13 @@
     },
     "2026-10-04": {
       "evento": {
-        "hayEvento": false,
-        "nombre": null,
-        "recinto": null,
+        "hayEvento": true,
+        "nombre": "Hombres G",
+        "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-05": {
       "evento": {
@@ -1223,7 +1223,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-06": {
       "evento": {
@@ -1233,7 +1233,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-07": {
       "evento": {
@@ -1243,7 +1243,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-08": {
       "evento": {
@@ -1253,7 +1253,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-09": {
       "evento": {
@@ -1263,7 +1263,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     },
     "2026-10-10": {
       "evento": {
@@ -1273,7 +1273,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-03T09:43:07.333Z"
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
+    },
+    "2026-10-11": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-04T10:26:40.356Z"
     }
   }
 }
