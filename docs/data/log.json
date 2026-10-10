@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastrun": "2026-10-09T11:10:02.770Z",
+    "lastrun": "2026-10-10T10:27:16.572Z",
     "fuente": "estadiolimpic.barcelona",
-    "eventos": 7
+    "eventos": 8
   },
   "dias": {
     "2026-06-06": {
@@ -1267,13 +1267,13 @@
     },
     "2026-10-10": {
       "evento": {
-        "hayEvento": false,
-        "nombre": null,
-        "recinto": null,
-        "afectaExplanada": false
+        "hayEvento": true,
+        "nombre": "Oques Grasses",
+        "recinto": "Estadi Olímpic",
+        "afectaExplanada": true
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-11": {
       "evento": {
@@ -1283,7 +1283,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-12": {
       "evento": {
@@ -1293,7 +1293,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-13": {
       "evento": {
@@ -1303,7 +1303,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-14": {
       "evento": {
@@ -1313,7 +1313,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-15": {
       "evento": {
@@ -1323,7 +1323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     },
     "2026-10-16": {
       "evento": {
@@ -1333,7 +1333,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-09T11:10:02.770Z"
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
+    },
+    "2026-10-17": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-10T10:27:16.572Z"
     }
   }
 }
