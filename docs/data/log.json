@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-10-11T10:39:15.654Z",
+    "lastrun": "2026-10-12T11:43:17.938Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 7
   },
@@ -1293,7 +1293,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-13": {
       "evento": {
@@ -1303,7 +1303,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-14": {
       "evento": {
@@ -1313,7 +1313,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-15": {
       "evento": {
@@ -1323,7 +1323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-16": {
       "evento": {
@@ -1333,7 +1333,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-17": {
       "evento": {
@@ -1343,7 +1343,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     },
     "2026-10-18": {
       "evento": {
@@ -1353,7 +1353,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-11T10:39:15.654Z"
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+    },
+    "2026-10-19": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Deep Purple",
+        "recinto": "Sant Jordi Club",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
     }
   }
 }
