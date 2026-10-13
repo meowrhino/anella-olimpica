@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-10-12T11:43:17.938Z",
+    "lastrun": "2026-10-13T11:29:11.490Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 7
   },
@@ -1303,7 +1303,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-14": {
       "evento": {
@@ -1313,7 +1313,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-15": {
       "evento": {
@@ -1323,7 +1323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-16": {
       "evento": {
@@ -1333,7 +1333,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-17": {
       "evento": {
@@ -1343,7 +1343,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-18": {
       "evento": {
@@ -1353,7 +1353,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     },
     "2026-10-19": {
       "evento": {
@@ -1363,7 +1363,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-12T11:43:17.938Z"
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
+    },
+    "2026-10-20": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "The Strokes",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-13T11:29:11.490Z"
     }
   }
 }
