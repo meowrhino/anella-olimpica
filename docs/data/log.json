@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-10-14T09:20:48.888Z",
+    "lastrun": "2026-10-15T08:56:25.184Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 7
   },
@@ -1323,7 +1323,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-16": {
       "evento": {
@@ -1333,7 +1333,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-17": {
       "evento": {
@@ -1343,7 +1343,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-18": {
       "evento": {
@@ -1353,7 +1353,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-19": {
       "evento": {
@@ -1363,7 +1363,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-20": {
       "evento": {
@@ -1373,7 +1373,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     },
     "2026-10-21": {
       "evento": {
@@ -1383,7 +1383,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-14T09:20:48.888Z"
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
+    },
+    "2026-10-22": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Morgenshtern",
+        "recinto": "Sant Jordi Club",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-15T08:56:25.184Z"
     }
   }
 }
