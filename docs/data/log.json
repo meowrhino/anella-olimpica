@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-10-30T10:44:16.455Z",
+    "lastrun": "2026-10-31T10:13:14.035Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 8
   },
@@ -1483,7 +1483,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-01": {
       "evento": {
@@ -1493,7 +1493,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-02": {
       "evento": {
@@ -1503,7 +1503,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-03": {
       "evento": {
@@ -1513,7 +1513,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-04": {
       "evento": {
@@ -1523,7 +1523,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-05": {
       "evento": {
@@ -1533,7 +1533,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     },
     "2026-11-06": {
       "evento": {
@@ -1543,7 +1543,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-10-30T10:44:16.455Z"
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
+    },
+    "2026-11-07": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Joe Bonamassa",
+        "recinto": "Sant Jordi Club",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-10-31T10:13:14.035Z"
     }
   }
 }
