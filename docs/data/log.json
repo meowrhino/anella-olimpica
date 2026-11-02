@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastrun": "2026-11-01T11:05:02.056Z",
+    "lastrun": "2026-11-02T12:03:58.155Z",
     "fuente": "estadiolimpic.barcelona",
-    "eventos": 8
+    "eventos": 9
   },
   "dias": {
     "2026-06-06": {
@@ -1497,13 +1497,13 @@
     },
     "2026-11-02": {
       "evento": {
-        "hayEvento": false,
-        "nombre": null,
-        "recinto": null,
+        "hayEvento": true,
+        "nombre": "Melendi",
+        "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-03": {
       "evento": {
@@ -1513,7 +1513,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-04": {
       "evento": {
@@ -1523,7 +1523,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-05": {
       "evento": {
@@ -1533,7 +1533,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-06": {
       "evento": {
@@ -1543,7 +1543,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-07": {
       "evento": {
@@ -1553,7 +1553,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     },
     "2026-11-08": {
       "evento": {
@@ -1563,7 +1563,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-01T11:05:02.056Z"
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
+    },
+    "2026-11-09": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-11-02T12:03:58.155Z"
     }
   }
 }
