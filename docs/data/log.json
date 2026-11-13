@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-11-12T12:16:59.450Z",
+    "lastrun": "2026-11-13T11:55:56.880Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 9
   },
@@ -1613,7 +1613,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-14": {
       "evento": {
@@ -1623,7 +1623,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-15": {
       "evento": {
@@ -1633,7 +1633,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-16": {
       "evento": {
@@ -1643,7 +1643,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-17": {
       "evento": {
@@ -1653,7 +1653,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-18": {
       "evento": {
@@ -1663,7 +1663,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     },
     "2026-11-19": {
       "evento": {
@@ -1673,7 +1673,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-12T12:16:59.450Z"
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
+    },
+    "2026-11-20": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "LOS40 MUSIC AWARDS SANTANDER 2026",
+        "recinto": "Palau Sant Jordi",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-11-13T11:55:56.880Z"
     }
   }
 }
