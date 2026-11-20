@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastrun": "2026-11-19T12:34:22.496Z",
+    "lastrun": "2026-11-20T12:34:08.708Z",
     "fuente": "estadiolimpic.barcelona",
     "eventos": 8
   },
@@ -1683,7 +1683,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-21": {
       "evento": {
@@ -1693,7 +1693,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-22": {
       "evento": {
@@ -1703,7 +1703,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-23": {
       "evento": {
@@ -1713,7 +1713,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-24": {
       "evento": {
@@ -1723,7 +1723,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-25": {
       "evento": {
@@ -1733,7 +1733,7 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     },
     "2026-11-26": {
       "evento": {
@@ -1743,7 +1743,17 @@
         "afectaExplanada": false
       },
       "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-19T12:34:22.496Z"
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
+    },
+    "2026-11-27": {
+      "evento": {
+        "hayEvento": true,
+        "nombre": "Los Fabulosos Cadillacs",
+        "recinto": "Sant Jordi Club",
+        "afectaExplanada": false
+      },
+      "scrapeOk": true,
+      "ultimaActualizacion": "2026-11-20T12:34:08.708Z"
     }
   }
 }
