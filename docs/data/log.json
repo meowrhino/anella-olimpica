@@ -2,7 +2,8 @@
   "meta": {
     "lastrun": "2026-11-26T13:37:01.418Z",
     "fuente": "estadiolimpic.barcelona",
-    "eventos": 8
+    "eventos": 8,
+    "ultimoIntento": "2026-11-27T13:32:34.285Z"
   },
   "dias": {
     "2026-06-06": {
@@ -1752,8 +1753,8 @@
         "recinto": "Sant Jordi Club",
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-11-28": {
       "evento": {
@@ -1762,8 +1763,8 @@
         "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-11-29": {
       "evento": {
@@ -1772,8 +1773,8 @@
         "recinto": "Palau Sant Jordi",
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-11-30": {
       "evento": {
@@ -1782,8 +1783,8 @@
         "recinto": null,
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-12-01": {
       "evento": {
@@ -1792,8 +1793,8 @@
         "recinto": null,
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-12-02": {
       "evento": {
@@ -1802,8 +1803,8 @@
         "recinto": null,
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     },
     "2026-12-03": {
       "evento": {
@@ -1812,8 +1813,18 @@
         "recinto": null,
         "afectaExplanada": false
       },
-      "scrapeOk": true,
-      "ultimaActualizacion": "2026-11-26T13:37:01.418Z"
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
+    },
+    "2026-12-04": {
+      "evento": {
+        "hayEvento": false,
+        "nombre": null,
+        "recinto": null,
+        "afectaExplanada": false
+      },
+      "scrapeOk": false,
+      "ultimaActualizacion": "2026-11-27T13:32:34.285Z"
     }
   }
 }
